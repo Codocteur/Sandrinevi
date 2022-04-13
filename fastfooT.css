@@ -1,0 +1,90 @@
+@font-face{
+    font-family: 'alfa Slab one';
+    src: url(AlfaSlabOne-Regular.ttf);
+  
+}
+header{
+   
+}
+
+.menubar-container{
+   position: relative;
+
+}
+.menubar-container img{
+    position: absolute;
+    width: 100%;
+}
+.menubar{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logotext-container img{
+    height: 80px; 
+    position: initial;
+}
+.logo-text{
+    font-size: 2rem;
+    color: #3d2616;
+    font-family:'Alfa Slab One';
+    margin-left: 10px;
+    text-transform: uppercase;
+    position: initial;
+   
+   }
+.menubar-left{
+    position:initial;
+    padding-left: 50px;
+}
+.vespa-text-container img{
+    height: 50px;
+    margin: 20px;
+    position: initial;
+}
+.logotext-container{
+    display: flex;
+    align-items: center;
+    position: initial;
+}
+.vespa-text-container{
+    display: flex;
+    align-items: center;
+    position: initial;
+}
+.link{
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 20px;
+    color: #3d2616;
+    font-family:'Alfa Slab One';
+    position: initial;
+    
+}
+.link:hover{
+    color: white;
+}
+.tittle-box{
+    
+    font-family:'Alfa Slab One';
+    color: #3d2616;
+    font-size: 0,5rem;
+    padding:100px 50px ;
+    width: 700px;
+    position: absolute;
+}
+.burger{
+    font-size: 9rem;
+    text-shadow: 4px 4px 1px #fff ;
+}
+.WEEK{
+    font-size: 4rem;
+    text-shadow: 4px 4px 1px #fff
+}
+.head{
+    border: 1px dashed;
+    width: fit-content;
+    margin-left: 10px;
+    padding: 3px;
+}
